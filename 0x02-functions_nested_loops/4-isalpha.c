@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * _isalph - Shows 1 if the input is a
- * letter. Another cases, shows 0
+ * _isalpha - Checks for alphabetic character
  *
- * @c: The character is in ASCII code
+ * @c: The character to be checked
  *
  * Return: 1 for letters or 0 for anything else
  */
@@ -20,5 +19,4 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
-	_putchar('\n');
 }
