@@ -1,15 +1,17 @@
 #include "main.h"
- /**
-   *print_alphabet_x10 - Prints the alphabet 10 times
-   *Description: 'prints alhabet 10 times'
-   *Return: always 0
-   */
+
+/**
+ * print_alphabet_x10 - Prints the alphabet x10 times
+ *
+ * Return: always 0
+ */
+
 void print_alphabet_x10(void)
 {
 	int i;
 	int j;
 
-	for (i = 0; i <= 10; i++)
+	for (i = 1; i <= 10; i++)
 	{
 		for (j = 97; j <= 122; j++)
 		{
@@ -18,4 +20,3 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 	}
 }
-
